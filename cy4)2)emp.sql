@@ -29,3 +29,10 @@ begin
 	dbms_output.put_line('incr salary'||s);
 	update emp2 set sal=sal+s where empno=n;
 end;
+
+output:
+SQL>@z:/
+enter the value for eid:7844
+old 2 : emp 2.empno%type:=&eid;
+new 2 : emp 2.empno%type:=7844;
+salary of employee 7844 should be incremented by 480
