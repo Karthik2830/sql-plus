@@ -32,3 +32,15 @@ begin
 	mat(n,s);
 	dbms_output.put_line(s);
 end;
+
+
+output:
+enter value for pid:101
+old 2:pid number:=&eid;
+new 2:pid number:=101;
+the product with entered pid is found 
+pl/sql procedure successfully completed 
+enter value for pid:506
+old 2:pid number:=&eid;
+new 2:pid number:=506;
+the product with entered pid is not found 
