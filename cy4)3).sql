@@ -32,3 +32,18 @@ begin
 	dbms_output.put_line(r.empno||’  ‘||r.sal);
 
 end;
+
+output:
+enter value for eid:7499
+old 2:eid emp2.empno%type:=&eid;
+new 2:eid emp2.empno%type:=7499;
+salary of employee 7499 should be incremented by 480
+
+sql>select * from emp2 where empno=7499
+empno  name   job       MGR    hiredate   sal   comm   deptno
+7499   allen  salesman  7698   20-FEB-81  2080  300    30
+
+enter value for eid:5469
+old 2:eid emp2.empno%type:=&eid;
+new 2:eid emp2.empno%type:=5469;
+there is no employee with empid 5469
