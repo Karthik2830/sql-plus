@@ -35,3 +35,12 @@ begin
 ncr1 := ncr(n,r);
 dbms_output.put_line(n||' c '||r||' = '||ncr1);
 end;
+
+output:
+enter value for n:4
+old 2 : n number:=&n
+new 2 : n number:=4
+enter value for r:2
+old 2 : n number:=&n
+new 2 : n number:=2
+ncr=6
